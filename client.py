@@ -17,7 +17,7 @@ def file_to_array(file_path):
 
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_address = ('localhost', 11114)
+server_address = ('localhost', 11123)
 sock.connect(server_address)
 
 addrs = file_to_array('PROJ2-HNS.txt');
